@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+	
+		<style>
+
+        .navbar {
+			height: 80px;
+			overflow: hidden;
+			background-color: black;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.navbar a {
+			float: right;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 30px 30px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+
+		.navbar a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+        img {
+          width: 100%;
+        }
+        body {background-color: white;}
+        
+		
+		
+		
+		button {
+			background-color: red;
+			border: none;
+			color: white;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 17px;
+			margin: 4px 2px;
+			cursor: pointer;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+
+
+		.logo {
+			
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 5px;
+			width: 10px; /* adjust as needed */
+			height: 10px; /* adjust as needed */
+		}
+
+		.text {
+			text-align: right;
+		}
+
+		.section0 {
+
+			font-family: Arial, Helvetica, sans-serif;
+			
+			color: black;
+		}
+
+		.section1 {
+
+			background-color: black;
+			text-align: center;
+			color: white;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		</style>
+
+
+	</head>
+	
+
+
+<body>
+
+	
+
+	<script>
+		function scrollToAbout() {
+		  document.querySelector("#about").scrollIntoView({
+			behavior: "smooth"
+		  });
+		}
+	</script>
+
+	<div class = "section0">
+		<img src="C:\Users\Vincent Okafor\Pictures\Saved Pictures/Portfolio2.jpg" alt="Portfolio Picture" style="width:800px;height:900px;">
+		<button type="button" onclick="scrollToAboutMe()">About Me</button>
+		<h1 class= "text">Hi there, I'm <span style="color: red;">Vincent</span></h1>
+
+	</div>
+    
+	
+	
+	
+    <div class="navbar">
+		<img src="C:\Users\Vincent Okafor\Pictures\Saved Pictures/Logo.jpg" alt="Logo" style="width:200px;height:200px;" class = "logo">
+		<a href="about.html">Skills</a>
+		<a href="resume.html">Resume</a>
+		<a href="contact.html">Contact</a>
+		<a href="projects.html">Projects</a>
+        
+	</div>
+
+	<div class = "section1">
+		<h1>About Me</h1>
+
+
+	</div>
+
+
+	
+
+	
+
+
+</body>
+
+</html>
